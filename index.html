@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuestionario de Los Simpsons</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <!-- HEADER CON DESCIPCION-->
+    <div class="head-container">
+      <h1 class="title">¡Bienvenido a la trivia de Los Simpsons!</h1>
+      <p class="text">
+        El proyecto se basa en un juego de 5 preguntas y respuestas sobre la
+        serie "Los Simpsons", otorgando un puntaje de <strong>"10"</strong> por
+        cada respuesta correcta y <strong>"0"</strong> por cada respuesta
+        incorrecta.
+      </p>
+    </div>
+    <!-- BLOQUE PARA INGRESAR NOMBRE DE USUARIO Y VER EL PUNTAJE ANTERIOR -->
+    <div class="main-container">
+      <div class="name-container">
+        <form id="name-input">
+          <label for="nombre">Ingresa tu nombre:</label>
+          <input type="text" id="nombre" />
+          <div>
+            <button id="name-button">Aceptar</button>
+          </div>
+          <!-- SALUDO -->
+          <div id="greets"></div>
+        </form>
+      </div>
+      <div class="score-container">
+        <p class="text">Puntos de ronda anterior:</p>
+        <p id="last-point-score"></p>
+      </div>
+    </div>
+
+    <!-- BLOQUE DE CANTIDAD DE PREGUNTAS Y PUNTAJE -->
+    <div class="main-container">
+      <div class="number-of-questions-container">
+        <p>Elige la cantidad de preguntas a responder:</p>
+        <div>
+          <button id="less">-</button>
+          <span id="numberOfQuestions">1</span>
+          <button id="sum">+</button>
+        </div>
+        <div>
+          <button id="confirm-button">Iniciar</button>
+        </div>
+      </div>
+
+      <div class="points-container">
+        <p class="text">Puntos actuales:</p>
+        <p id="point-counter"></p>
+      </div>
+    </div>
+    <!-- LISTA DE PREGUNTAS -->
+    <div id="question-container"></div>
+
+    <!-- BOTON DE ENVIAR RESPUESTAS Y REINICIAR TEST -->
+    <div>
+      <button id="finish-test-button">Enviar respuestas</button>
+      <button id="restart-button">Reiniciar</button>
+    </div>
+
+    <!-- COPYRIGHT -->
+    <footer>
+      <p>&copy; 2024 | Desarrollado por Nicolas Boscasso</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

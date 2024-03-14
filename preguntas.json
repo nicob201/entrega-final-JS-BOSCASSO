@@ -1,0 +1,42 @@
+[
+  {
+    "pregunta": "1) ¿Cual es el segundo nombre de Homero?",
+    "opciones": ["a) Ned", "b) Bart", "c) Jay", "d) Moe"],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "2) ¿Quién le disparó al señor Burns?",
+    "opciones": [
+      "a) Waylon Smithers",
+      "b) Maggie Simpson",
+      "c) Seymour Skinner",
+      "d) Ned Flanders"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "3) ¿Por qué viajan a Australia los Simpson?",
+    "opciones": [
+      "a) Porque Bart tenía que disculparse por una broma telefónica",
+      "b) Porque Lisa se iba a presentar en un concierto",
+      "c) Porque Homero se ganó tickets",
+      "d) Ninguna es correcta"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "4) ¿Quiénes fueron los miembros originales de Los Borbotones?",
+    "opciones": [
+      "a) Barney, Homero, el director Skinner y el jefe Górgory",
+      "b) Otto, Apu, Mel Patiño y Homero",
+      "c) Apu, el director Skinner, el jefe Górgory y Homero",
+      "d) Homero, Bart, Moe y Barney"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "5) ¿A qué es alérgico Bart?",
+    "opciones": ["a) Atún", "b) Fresas", "c) Maní", "d) Camarones"],
+    "respuestaCorrecta": 3
+  }
+]

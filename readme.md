@@ -8,6 +8,10 @@ Una vez que se da clic en el boton "INICIAR", se carga la cantidad de preguntas 
 
 El boton "REINICIAR" reestablece el progreso del juego.
 
+## Demo
+
+https://nicob201.github.io/entrega-final-JS-BOSCASSO/
+
 ## Autor
 
 - [@Nicolas Boscasso](https://github.com/nicob201)
